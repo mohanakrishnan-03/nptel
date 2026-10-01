@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+    font-family: Arial, sans-serif;
+}
+
+.certificate-container {
+    width: 100%;
+    min-height: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 5px;
+}
+
+.certificate {
+    width: 95%;
+    max-width: 550px;
+    height: auto;
+    display: block;
+}
